@@ -1,5 +1,5 @@
 -product/framework/qcrilhook.jar
--product/framework/qti-telephony-common.jar|1b1abf12fee1e1be1251f997f72dcb4f36d37adb
+-product/framework/qti-telephony-common.jar|c22616791b85fe249cb23bf5a332f919f1b5471f
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -product/app/QtiSystemService/QtiSystemService.apk
