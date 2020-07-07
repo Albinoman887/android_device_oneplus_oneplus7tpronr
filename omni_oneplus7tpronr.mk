@@ -108,4 +108,4 @@ PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-03-01
 
 TARGET_VENDOR := oneplus
 
-$(call inherit-product, vendor/oneplus/oneplus7tpronr/oneplus7tpro-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpronr/oneplus7tpronr-vendor.mk)
