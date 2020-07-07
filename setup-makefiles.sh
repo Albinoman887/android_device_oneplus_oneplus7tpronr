@@ -17,7 +17,7 @@
 set -e
 
 VENDOR=oneplus
-DEVICE=oneplus7tpro
+DEVICE=oneplus7tpronr
 
 INITIAL_COPYRIGHT_YEAR=2019
 

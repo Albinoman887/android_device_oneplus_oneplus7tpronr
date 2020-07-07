@@ -71,7 +71,7 @@ BOARD_USES_RECOVERY_AS_BOOT := false
 TARGET_BOOTANIMATION_SIZE := 1080p
 AB_OTA_UPDATER := true
 
-DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7tpro/overlay/device
+DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7tpronr/overlay/device
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7pro/overlay/device
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7pro/overlay/common
 DEVICE_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
@@ -83,29 +83,29 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/mainline_system_arm64.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/oneplus/oneplus7tpro/device.mk)
+$(call inherit-product, device/oneplus/oneplus7tpronr/device.mk)
 
 ALLOW_MISSING_DEPENDENCIES := true
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_oneplus7tpro
-PRODUCT_DEVICE := oneplus7tpro
+PRODUCT_NAME := omni_oneplus7tpronr
+PRODUCT_DEVICE := oneplus7tpronr
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := HD1913
+PRODUCT_MODEL := HD1925
 
-TARGET_DEVICE := OnePlus7TPro
-PRODUCT_SYSTEM_NAME := OnePlus7TPro
+TARGET_DEVICE := OnePlus7TProNR
+PRODUCT_SYSTEM_NAME := OnePlus7TProNR
 
-VENDOR_RELEASE := 10/QKQ1.190716.003/2003271900:user/release-keys
-BUILD_FINGERPRINT := OnePlus/OnePlus7TPro_EEA/OnePlus7TPro:$(VENDOR_RELEASE)
-OMNI_BUILD_FINGERPRINT := OnePlus/OnePlus7T_EEA/OnePlus7T:$(VENDOR_RELEASE)
-OMNI_PRIVATE_BUILD_DESC := "'OnePlus7TPro_EEA-user 10 QKQ1.190716.003 2003271900 release-keys'"
+VENDOR_RELEASE := 10/QKQ1.190716.003/2006042037:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus7TProNR/OnePlus7TPro:$(VENDOR_RELEASE)
+OMNI_BUILD_FINGERPRINT := OnePlus/OnePlus7TProNR/OnePlus7T:$(VENDOR_RELEASE)
+OMNI_PRIVATE_BUILD_DESC := "'OnePlus7TProNR-user 10 QKQ1.190716.003 2006042037 release-keys'"
 
 PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-03-01
 
 TARGET_VENDOR := oneplus
 
-$(call inherit-product, vendor/oneplus/oneplus7tpro/oneplus7tpro-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpronr/oneplus7tpro-vendor.mk)

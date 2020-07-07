@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),$(filter $(TARGET_DEVICE),oneplus7tpro))
+ifeq ($(TARGET_DEVICE),$(filter $(TARGET_DEVICE),oneplus7tpronr))
 
 LOCAL_PATH:= $(call my-dir)
 

@@ -18,13 +18,13 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
 #
-DEVICE_PATH := device/oneplus/oneplus7tpro
+DEVICE_PATH := device/oneplus/oneplus7tpronr
 
-ifeq ($(TARGET_DEVICE),oneplus7tpro)
-TARGET_OTA_ASSERT_DEVICE := oneplus7tpro
+ifeq ($(TARGET_DEVICE),oneplus7tpronr)
+TARGET_OTA_ASSERT_DEVICE := oneplus7tpronr
 endif
 
-ifeq ($(TARGET_DEVICE),oneplus7tpro)
+ifeq ($(TARGET_DEVICE),oneplus7tpronr)
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 endif
 
@@ -40,7 +40,7 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-PRODUCT_SOONG_NAMESPACES += vendor/oneplus/oneplus7tpro
+PRODUCT_SOONG_NAMESPACES += vendor/oneplus/oneplus7tpronr
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_COPY_OUT_PRODUCT := product

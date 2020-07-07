@@ -1,8 +1,8 @@
 {
-    "model": "OnePlus 7T Pro",
-    "pageUrl":"https://dl.omnirom.org/tmp/oneplus7tpro",
+    "model": "OnePlus 7T Pro 5G",
+    "pageUrl":"https://dl.omnirom.org/tmp/oneplus7tpronr",
     "make": "OnePlus",
     "image": "meta/device_image.jpg",
     "state": "unofficial",
-    "device": "oneplus7tpro"
+    "device": "oneplus7tpronr"
 }
