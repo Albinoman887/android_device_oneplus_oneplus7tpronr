@@ -23,8 +23,7 @@
 # Prebuilt
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/oneplus/oneplus7pro/prebuilt/product,product) \
-    $(call find-copy-subdir-files,*,device/oneplus/oneplus7pro/prebuilt/root,recovery/root) \
-    $(call find-copy-subdir-files,*,device/oneplus/oneplus7tpronr/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/oneplus/oneplus7pro/prebuilt/root,recovery/root)
 
 PRODUCT_PACKAGES += fstab.qcom
 
