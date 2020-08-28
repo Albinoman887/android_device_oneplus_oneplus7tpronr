@@ -285,6 +285,6 @@ persist.radio.physical.slot.count=2
 ro.boot.oneplus.lockstate=0
 ro.boot.realme.lockstate=0
 ro.boot.lockstate=0
-vendor.boot.verifiedbootstate=orange
+
 #HWC
 #persist.vendor.color.matrix=2
